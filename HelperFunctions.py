@@ -131,7 +131,7 @@ def vis_segmentation(image, seg_map):
     plt.xticks([], [])
     ax.tick_params(width=0.0)
     plt.grid('off')
-    plt.show()
+    plt.savefig('detections.jpg')
 
 
 LABEL_NAMES = np.asarray([
